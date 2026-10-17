@@ -1,4 +1,4 @@
--- Human Haste - Configurable 1.1.0
+-- Human Haste - Configurable 1.0
 -- Derived from HumanHasteAtNight by SkrappyNPC (MIT; see LICENSE).
 local Settings=require('Settings')
 local dir=assert(debug.getinfo(1,'S').source:match('^@(.+[\\/])'))
