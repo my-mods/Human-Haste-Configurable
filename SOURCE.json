@@ -1,0 +1,49 @@
+{
+  "upstream": {
+    "name": "HumanHasteAtNight",
+    "version": "1.0.0",
+    "author": "SkrappyNPC",
+    "url": "https://www.nexusmods.com/thebloodofdawnwalker/mods/753",
+    "license": "MIT (original notice retained)",
+    "mainLuaSha256": "cefe4b43f88c780e5aaf7ae96a081d926e1bb55939533a50f1aa6dafbeac527e"
+  },
+  "menuHelper": {
+    "name": "Mod Setting Menu integration guide",
+    "version": "1.0.7.1",
+    "apiVersion": 1,
+    "sha256": "6bb667bffc543d1c5c1b36ab6da66c621d6c81c9ee46f94f0f6339cae9cc884c",
+    "modified": false,
+    "source": "Mod Setting Menu Integration Guide 1.0.7.1, example/Scripts/dmm_api.lua"
+  },
+  "asset": {
+    "name": "BS_Coen_Vampire_Unarmed_CycleFaceVelocity",
+    "engine": "UE5_5",
+    "change": "Human haste gait added; twelve ordinary samples retained; game animation references only",
+    "calibration": {
+      "Coen_Sprint_F": {
+        "meanCmPerSecond": 557.5817449396307,
+        "min": 557.5812377929688,
+        "max": 557.5833740234375,
+        "samples": 55,
+        "curve": "RootSpeedY"
+      },
+      "Coen_SprintFastTravel02_F": {
+        "meanCmPerSecond": 780.6144297074298,
+        "min": 780.6137084960938,
+        "max": 780.61669921875,
+        "samples": 49,
+        "curve": "RootSpeedY"
+      },
+      "Wolf_Run_Forward": {
+        "meanCmPerSecond": 928.3721923828125,
+        "min": 927.6030883789062,
+        "max": 934.044677734375,
+        "samples": 14,
+        "curve": "RootSpeedY"
+      },
+      "ratio": 1.1892839243706543,
+      "evidence": "Vanilla animation curves, normal sample RateScale=1; nominal forward speed, not an in-game timing result."
+    },
+    "referenceSteamBuild": "25232147"
+  }
+}

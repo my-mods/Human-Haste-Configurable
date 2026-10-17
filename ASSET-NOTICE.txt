@@ -1,0 +1,1 @@
+The cooked blendspace and its editable legacy pair are derived from The Blood of Dawnwalker game data. Game assets and referenced animations remain the property of their respective owners; the MIT license for the mod scripts does not relicense those materials. No animation sequence is bundled. The game is required.

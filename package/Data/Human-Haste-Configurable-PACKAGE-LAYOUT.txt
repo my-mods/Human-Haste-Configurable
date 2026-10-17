@@ -1,0 +1,1 @@
+The Dawnwalker folder contains all runtime payloads. Root documentation and this Data note are archive metadata and are not deployed. Personal settings.ini is generated at runtime.

@@ -1,0 +1,8 @@
+* text=auto
+*.lua text eol=lf
+*.ini text eol=lf
+*.uasset binary
+*.uexp binary
+*.pak binary
+*.ucas binary
+*.utoc binary
